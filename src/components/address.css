@@ -1,0 +1,24 @@
+.modal {
+    display: flex;
+   left: 0;
+   top: 10px;
+   right: 0;
+   bottom:0;
+  
+   background-color: rgba(52, 49, 49, 0.634);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   z-index: "1000";
+   overflow-y: auto;
+   
+   
+   
+   
+}
+.modal-content{
+       border: 2px solid red;
+       margin-top: 4rem;
+       width:900px;
+       background-color: white;
+   }

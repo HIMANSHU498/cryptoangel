@@ -1,0 +1,110 @@
+.main-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   
+}
+.filter{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin-top: 50px;
+}
+.category{
+    padding: 5px 5px;
+    margin: 0 5px;
+    background-color:rgb(252, 147, 165);
+    border-radius: 8px;
+    font-weight: normal;
+    cursor: pointer;
+    font-family: cursive;
+}
+.category:active{
+    background-color:rgb(253, 114, 137) ;
+    color: red;
+}
+.cardWrapper{
+    display: flex;
+     justify-content: space-around; 
+    flex-wrap: wrap;
+    margin-top: 25px;
+    width: 85%;
+    gap: 3rem;
+   
+}
+.card{
+    height: 19rem;
+    width: 25%;
+    margin-top: 20px;
+    background-color: rgb(252, 161, 63);
+   
+}
+
+/* .card:hover{
+    transform: translateY(-10px);
+    transition: transform 0.5s;
+} */
+.card-img{
+    position: relative;
+    height: 130px;
+    width: 100%;
+}
+.card-title{
+    font-family:   sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+   color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 5px;
+    font-weight: normal;
+    background-color: rgb(255, 153, 208);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.card-data{
+    display: flex;
+    justify-content: space-between;
+    margin:  2px 0;
+    padding: 4px;
+    cursor: pointer
+    ;
+    color: black;
+    background-color: rgb(150, 234, 255);
+}
+.text-style{
+display: flex;
+align-items: center;
+margin: 0;    
+padding: 0;
+font-size: 16px;
+font-weight:600;
+}
+.card-btn{
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    cursor: pointer
+    ;
+    border: none;
+    background-color:rgba(68, 226, 0, 0.948);
+    text-transform:uppercase;
+    color: rgb(255, 250, 250);
+    font-size:14px ;
+    font-weight: bold;
+}
+.card-btn:hover{
+    background-color: rgb(27, 218, 13);
+}
+.card-btn:active{
+    background-color: rgb(8, 185, 44);
+    color: rgb(255, 5, 5);
+}
+.btn-style{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 2px;
+}

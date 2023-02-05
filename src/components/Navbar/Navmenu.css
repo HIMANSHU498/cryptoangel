@@ -1,0 +1,24 @@
+.navmenu{
+    justify-content: space-around;
+    display: flex;
+    gap: 2.5rem;
+    margin-right: 0rem;
+   font-size: 1rem;
+ margin-top: 1rem;
+   font-weight: 500;
+    align-items: center;
+    padding: 10px;
+    border: 10px;
+    border-radius: 40px;
+    background-color: rgb(86, 196, 239);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.menu{
+  text-decoration: none;
+  color: white;
+}
+.menu:hover{
+    color: rgb(251, 156, 170);
+    cursor: pointer;
+}

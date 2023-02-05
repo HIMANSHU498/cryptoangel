@@ -1,0 +1,11 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-style: inherit;
+    font-weight: bold;
+    margin-top: 4rem;
+    color: rgb(255, 232, 209);
+margin-bottom: 300px;
+}

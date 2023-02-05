@@ -1,0 +1,45 @@
+.navright{
+    margin-right: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.6rem;
+
+}
+.mode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(54, 205, 255);
+    color: rgb(249, 249, 246);
+    padding: 5px;
+    width: 40px;
+    border-radius: 10px;
+}
+.wallet{
+   font-weight: bold;
+    align-items: center;
+    background-color: rgb(54, 205, 255);
+    color:rgb(255, 255, 255);
+    padding: 9px;
+    font-size: large;
+    width: auto;
+    border-radius: 10px;
+}
+.light{
+    color:”warning”;
+}
+.mode:hover{
+    color: pink;
+    cursor: pointer;
+}
+.wallet:hover{
+    color: pink;
+    cursor: pointer;
+}
+.wallet:active{
+    color: red;
+    background-color: rgb(37, 190, 255);
+}
+.address{
+    font-size: small;
+}
